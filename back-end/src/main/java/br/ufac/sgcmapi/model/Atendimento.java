@@ -18,7 +18,7 @@ import javax.persistence.UniqueConstraint;
 //Teste de integração contínua
 //desafio
 @Entity
-@Table(
+@Tale(
     uniqueConstraints = {
         @UniqueConstraint(
             columnNames = {
