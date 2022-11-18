@@ -24,6 +24,6 @@ jobs:
         working-directory: back-end/
         run: railway up --detach --service sgcm-welligton
         env:
-          RAILWAY_TOKEN: ${{ secrets.RAILWAY_TOKEN }}
+          RAILWAY_TOKEN: ${{ secrets.RAILWAY }}
         
         
