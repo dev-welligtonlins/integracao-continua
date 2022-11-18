@@ -15,6 +15,7 @@ import javax.persistence.ManyToOne;
 import javax.persistence.Table;
 import javax.persistence.UniqueConstraint;
 
+//Teste de integração contínua
 @Entity
 @Table(
     uniqueConstraints = {
