@@ -19,3 +19,4 @@ jobs:
       - name: Compilação / Test / Package
         working-directory: back-end/
         run: mvn --activate-profiles prod package
+ 
