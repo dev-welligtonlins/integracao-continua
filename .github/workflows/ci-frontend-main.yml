@@ -75,4 +75,4 @@ jobs:
         working-directory: front-end/dist/sgcmapp
         run: railway up --detach --service sgcm-welligton-frontend
         env:
-          RAILWAY_TOKEN: ${{ secrets.RAILWAY_TOKEN }}
+          RAILWAY_TOKEN: ${{ secrets.RAILWAY }}
